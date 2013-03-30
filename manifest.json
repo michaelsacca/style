@@ -1,0 +1,33 @@
+{
+    "name":"Instagram for Chrome Tabs :: Instatabs",
+    "version":"1.1.2",
+    "manifest_version":2,
+    "description":"Bringing Instagram to your new tab screen. Browse your feed, like,  comment and so much more!",
+    "chrome_url_overrides":{
+        "newtab":"index.html"
+    },
+    "icons":{
+        "16":"icon16.png",
+        "48":"icon48.png",
+        "128":"icon128.png"
+    },
+    "content_scripts":[
+        {
+            "matches":["http://clients.tinyfactory.co/instagram*"],
+            "js":["js/redirect.js"],
+            "run_at":"document_start"
+        }
+    ],
+    "background":{
+        "page":"background.html"
+    },
+    "permissions":[
+        "https://api.instagram.com/*",
+        "tabs"
+    ],
+    "web_accessible_resources":[
+        "index.html",
+        "js/lib/knockout-2.2.0.debug.js"
+    ],
+    "content_security_policy":"script-src 'self' 'unsafe-eval' https://api.instagram.com https://platform.twitter.com https://connect.facebook.net https://ssl.google-analytics.com https://srv.buysellads.com https://pro.buysellads.com/; object-src 'self'"
+}
