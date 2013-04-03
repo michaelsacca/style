@@ -1,5 +1,7 @@
 // Comment or uncomment this for production / dev
 // console.log = function(){};
+var testObj = {};
+
 var bgPage = window.bgPage = chrome.extension.getBackgroundPage(),
 // the instagram API
     InstaAPI = window.InstaAPI = bgPage.InstaAPI,

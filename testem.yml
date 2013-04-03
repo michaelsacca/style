@@ -1,10 +1,14 @@
 launchers:
     integration:
-        command: "rspec testing/integration/*.rb"
+        command: "rspec testing/integration/testing.rb"
     headless:
-        command: "HEADLESS=1 rspec testing/integration/*.rb" 
+        command: "HEADLESS=1 rspec testing/integration/testing.rb" 
+
 src_files:
-- testing/integration/*.rb
-test_page: app/webroot/js/SpecRunner.html
+- testing/unit/*.js
+- src/js/app.js
+
+test_page: testing/SpecRunner.html
+
 launch_in_dev:
-- integration
+- headless
