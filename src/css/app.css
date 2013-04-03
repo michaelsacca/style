@@ -1,0 +1,61 @@
+/*
+Syntax error: File to import not found or unreadable: compass/css.
+              Load paths:
+                /Users/michaelsacca/dev/style/src/sass
+                /Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/frameworks/compass/stylesheets
+                Compass::SpriteImporter
+        on line 1 of /Users/michaelsacca/dev/style/src/sass/app.scss
+
+1: /Users/michaelsacca/dev/style/src/sass/app.scss
+
+Backtrace:
+/Users/michaelsacca/dev/style/src/sass/app.scss:1
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/import_node.rb:45:in `import'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:100:in `visit'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/tree/root_node.rb:20:in `render'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/engine.rb:315:in `_render'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/engine.rb:262:in `render'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/compiler.rb:146:in `block (2 levels) in compile'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/compiler.rb:132:in `timed'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/compiler.rb:145:in `block in compile'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/logger.rb:46:in `red'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/compiler.rb:144:in `compile'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/compiler.rb:124:in `compile_if_required'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/compiler.rb:109:in `block (2 levels) in run'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/compiler.rb:107:in `each'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/compiler.rb:107:in `block in run'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/compiler.rb:132:in `timed'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/compiler.rb:106:in `run'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/commands/update_project.rb:45:in `perform'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/commands/base.rb:18:in `execute'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/bin/compass:30:in `block in <top (required)>'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/bin/compass:44:in `call'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/bin/compass:44:in `<top (required)>'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/bin/compass:19:in `load'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/bin/compass:19:in `<main>'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `eval'
+/Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: compass/css.\A               Load paths:\A                 /Users/michaelsacca/dev/style/src/sass\A                 /Users/michaelsacca/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.13.alpha.3/frameworks/compass/stylesheets\A                 Compass::SpriteImporter\A         on line 1 of /Users/michaelsacca/dev/style/src/sass/app.scss\A \A 1: /Users/michaelsacca/dev/style/src/sass/app.scss"; }
